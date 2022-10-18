@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TypeBasicNote" representedClassName="TypeBasicNote" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TypeListNote" representedClassName="TypeListNote" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="Binary"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TypePictureNote" representedClassName="TypePictureNote" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="TypeBasicNote" positionX="-18" positionY="27" width="128" height="59"/>
+        <element name="TypeListNote" positionX="-18" positionY="45" width="128" height="59"/>
+        <element name="TypePictureNote" positionX="-9" positionY="63" width="128" height="59"/>
+    </elements>
+</model>
